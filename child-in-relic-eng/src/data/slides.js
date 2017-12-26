@@ -65,8 +65,6 @@ import desktopBg021 from '../../static/desktop/desktop-021-1440x810-bg.jpg'
 import desktopBg022 from '../../static/desktop/desktop-022-1440x960-bg.jpg'
 import desktopBg023 from '../../static/desktop/desktop-023-1440x960-bg.jpg'
 
-import related01 from '../../static/related-01.jpg'
-import related02 from '../../static/related-02.jpg'
 import topicLandingMobile from '../../static/topic-landing-mobile.jpg'
 import topicLandingTablet from '../../static/topic-landing-tablet.jpg'
 
@@ -83,9 +81,9 @@ const slides = [
     contentType: CONTENT_TYPES.TITLE_LEFT,
     showNextPageButton: false,
     content: {
-      subtitle: '廢墟裡的少年',
-      title: '15歲起我這樣養活自己',
-      date: '2017.10.23',
+      subtitle: 'A Youth in Ruins',
+      title: 'At age of fifteen, I\'ve began to earn my own living',
+      date: '2017.11.01',
     },
     backgroundType: BG_TYPES.CINEMAGRAPH,
     background: {
@@ -99,9 +97,9 @@ const slides = [
     showNextPageButton: true,
     buttonTheme: 'bright',
     content: {
-      title: '被迫自立的少年',
+      title: 'A Youth Forced to Fend for Himself',
       htmlContent:
-        '<p>這是一個少年土豆噴農藥的故事。這樣欠缺家庭溫暖與學校社會網絡資源的少年「土豆們」，為數不少，都隱身在我們之中。他們每一天都在與命運搏鬥。</p>',
+        '<p>This is a story of Tudou, a junior pesticide sprayer. There are so many juniors, like Tudou, who lack of family affection and social supports. They live among us and are relatively invisible. They have to fight against fate day after day.</p>',
       textBoxPosition: TEXT_BOX_POSITIONS.CENTER_CENTER,
     },
     backgroundType: BG_TYPES.COLOR,
@@ -113,7 +111,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '15歲那年，父親和阿嬤相繼過世，那一刻起，土豆靠自己活下去。水泥工、上山拔菜，什麼粗活都做過。',
+      caption: 'At age of fifteen, Tudou\'s father and grandmother passed away respectively. Since then, Tudou needed to sustain himself. He had worked as a cementer, a vegetable harvest labor, and other heavy labor jobs.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -131,7 +129,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '土豆的房間堆滿他夾來的娃娃，每天夜裡就是這些娃娃陪他睡覺。',
+      caption: 'The dolls he\'d won at claw machines piles up in his room. They are the only ones who stay with him at night.',
     },
     backgroundType: BG_TYPES.CINEMAGRAPH,
     background: {
@@ -144,7 +142,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '空蕩的祖厝老舊，房子一隅有廢棄的灶。',
+      caption: 'The ancestral house he lives in is empty and antiquated. An abandoned stove stands alone in the corner.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -162,9 +160,9 @@ const slides = [
     contentType: CONTENT_TYPES.TEXT_BOX,
     showNextPageButton: false,
     content: {
-      title: '經濟壓迫的代價',
+      title: 'The Cost of Economic Oppression',
       htmlContent:
-        '<p>雲林有全台密度最高的農藥代噴車，噴藥的清一色是年輕面孔。有時噴完藥，全身灼熱，想吐。會想辦法灌牛奶或吊點滴解毒。</p>',
+        '<p>Yunlin has the highest density of pesticide spray trucks in Taiwan, and all the sprayers are young people. After finishing spraying, sometimes they might experience burning feeling throughout whole bodies and feel vomiting. They would drink milk and be put up a drip to detoxify.</p>',
       textBoxPosition: TEXT_BOX_POSITIONS.CENTER_CENTER,
     },
     backgroundType: BG_TYPES.COLOR,
@@ -178,6 +176,7 @@ const slides = [
     content: {
       audioSrc: soundWorkEarly,
       subtitles: subtitles.workEarly,
+      subtitleLines: 3,
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -195,7 +194,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '土豆一天幾乎只吃兩餐，早餐是必吃的一餐。',
+      caption: 'Tudou eats only two meals a day, and breakfast is essential.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -213,7 +212,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '拿到農民給的農藥，土豆可以馬上知道配方比例，同時也知道農藥毒性。',
+      caption: 'As he gets the pesticides provided by farmers, Tudou knows immediately the proper proportion of the ingredients and its toxicity.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -231,7 +230,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '助手得顧好管線，如果管線纏住或破損，不僅無法工作，還要花錢修補。',
+      caption: 'The assistants need to take care of the pipelines. If the pipelines get entangled or broken, not only do they fail to finish their works, but also they have to pay for repair.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -251,6 +250,7 @@ const slides = [
     content: {
       audioSrc: soundPoisoned,
       subtitles: subtitles.poisoned,
+      subtitleLines: 3,
     },
     backgroundType: BG_TYPES.CINEMAGRAPH,
     background: {
@@ -263,7 +263,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '即便師傅再有經驗，一天工作下來，他們的肺部和身體還是沾染許多溢散的藥劑。',
+      caption: 'Even for the most experienced masters, their lungs and bodies were infected with diffused pesticides after a full day\'s work.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -281,7 +281,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '工作結束後，他們要洗淨藥桶及車子，更要趕緊沖洗身體。',
+      caption: 'After work, they need to clean pesticide tanks and trucks, as well as shower themselves.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -301,6 +301,7 @@ const slides = [
     content: {
       audioSrc: soundAboutSalary,
       subtitles: subtitles.aboutSalary,
+      subtitleLines: 3,
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -318,7 +319,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '噴藥工作都是每日領現，也因此收入很難存下來，有時當天賺的當天就會花完。',
+      caption: 'Each of the assistants earn thirty-five dollars for nine hundred and seventy square meters. The masters get seventy dollars, and the pesticide company gains fifty dollars.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -336,8 +337,8 @@ const slides = [
     contentType: CONTENT_TYPES.TEXT_BOX,
     showNextPageButton: false,
     content: {
-      title: '孤零零的「家」',
-      htmlContent: '<p>結束工作回到家裡，便孑然一身。朋友是他的寄託，遇到困難，彼此扶持。</p>',
+      title: 'Nobody is Home',
+      htmlContent: '<p>As Tudou goes home, he is left alone. Friends are the only ones he can count on. They support each other in face of difficulties.</p>',
       textBoxPosition: TEXT_BOX_POSITIONS.CENTER_CENTER,
     },
     backgroundType: BG_TYPES.COLOR,
@@ -349,7 +350,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '工作結束後，土豆常跟朋友泡在一起，吃飯、聊天、夾娃娃，打發時間。',
+      caption: 'After work, Tudou used to hanging out with friends to eat, chat, and play claw machine.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -367,7 +368,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '夾娃娃是土豆的消遣，只要夾到想要的，就很有成就感也抒壓。',
+      caption: 'Playing claw machine is Tudou\'s favorite pastime. As he grabs what he wants, he feels more fulfilled and relieved.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -385,7 +386,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '土豆夾娃娃的技巧已經練到有口皆碑，然而背後是一次又一次的金錢投注。',
+      caption: 'Tudou has become a well-known skilled clawer; however, it\'s the result of repeated money investing.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -403,7 +404,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '有空時候，土豆一定會跟朋友聯絡往外跑，很少一個人待在家。',
+      caption: 'Once he\'s free, he must call friends to go out. He seldom stays home alone.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -421,7 +422,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '大家常常找一家店吃東西、喝飲料，聊天、打屁、殺時間。',
+      caption: 'They will find a place to eat, drink, and chitchat with each other to kill time.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -439,7 +440,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '只要有什麼好康有趣的，土豆的朋友圈就會分享相邀，然後大家一起去玩。',
+      caption: 'Tudou\'s friends will share whatever is steal and fun, and always hang out together. ',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -459,6 +460,7 @@ const slides = [
     content: {
       audioSrc: soundSpecial,
       subtitles: subtitles.special,
+      subtitleLines: 3,
       iconTheme: 'dark',
     },
     backgroundType: BG_TYPES.IMAGE,
@@ -493,7 +495,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '回到家後土豆幾乎就掛在網上，不是打手遊就是線上聊天。',
+      caption: 'Back home, Tudou inclines to indulge in internet to either play mobile games or chat online.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -511,8 +513,8 @@ const slides = [
     contentType: CONTENT_TYPES.TEXT_BOX,
     showNextPageButton: false,
     content: {
-      title: '渴望屬於自己的家',
-      htmlContent: '<p>太早進入社會，也太過疲憊，已放棄復學的可能。活著，是他每天的功課。</p>',
+      title: 'Desire for His Own Home',
+      htmlContent: '<p>Tudou entered into society too early and felt too tired. He no longer expects there to be the possibility of going back to school. Being alive is his daily task.</p>',
       textBoxPosition: TEXT_BOX_POSITIONS.CENTER_CENTER,
     },
     backgroundType: BG_TYPES.COLOR,
@@ -524,7 +526,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: '土豆過去成績不錯，但家境轉變已讓他回不去學業這條路。',
+      caption: 'Though Tudou had performed well in school, he had no chance to continue his studies because of deteriorating family financial situation.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -544,6 +546,8 @@ const slides = [
     content: {
       audioSrc: soundFutureEnding,
       subtitles: subtitles.aboutFuture,
+      subtitleLines: 3,
+      iconTheme: 'dark',
     },
     backgroundType: BG_TYPES.CINEMAGRAPH,
     background: {
@@ -557,7 +561,7 @@ const slides = [
     showNextPageButton: false,
     content: {
       title: '',
-      htmlContent: '<p>在報導刊出前夕，土豆告知將離開噴灑農藥這一行，並另尋一份穩當安全的工作。</p>',
+      htmlContent: '<p>Before the day the reportage was published, Tudou told us that he decided to quit the job of pesticide spray, and would find new ones with security and safety.</p>',
       textBoxPosition: TEXT_BOX_POSITIONS.CENTER_CENTER,
     },
     backgroundType: BG_TYPES.COLOR,
@@ -569,49 +573,42 @@ const slides = [
     contentType: CONTENT_TYPES.COLOPHON,
     showNextPageButton: false,
     content: {
-      topicTitle: '廢墟裡的少年・專題報導',
+      topicTitle: 'Special Report: A Youth in Ruins',
       topicImage: {
         mobile: topicLandingMobile,
         tablet: topicLandingTablet,
         desktop: topicLandingTablet,
       },
       topicLink: 'https://www.twreporter.org/topics/high-risk-youth-left-in-relic',
-      relateds: [
-        {
-          title: '廢墟裡的少年——兩萬名被遺忘的高風險家庭孩子們',
-          to: 'https://www.twreporter.org/a/high-risk-youth-left-in-relic',
-          imageSrc: related01,
-        },
-        {
-          title: '【台灣篇】飛夢林搭屋，給脫隊生家的溫暖',
-          to: 'https://www.twreporter.org/a/high-risk-youth-family-youth',
-          imageSrc: related02,
-        },
-      ],
+      relateds: [],
       team: [
         {
-          job: '攝影',
-          members: ['余志偉', '林佑恩'],
+          job: 'Photography',
+          members: ['Chih-Wei Yu', 'Yu-En Lin'],
         },
         {
-          job: '文字',
-          members: ['李雪莉', '余志偉'],
+          job: 'Text',
+          members: ['Sherry Lee', ' Chih-Wei Yu'],
         },
         {
-          job: '專案管理',
-          members: ['陳貞樺'],
+          job: 'Translation',
+          members: ['Karen Wu'],
         },
         {
-          job: '設計',
-          members: ['黃禹禛'],
+          job: 'Project Manager',
+          members: ['Chen-Hua Chen'],
         },
         {
-          job: '工程',
-          members: ['余崇任'],
+          job: 'Design',
+          members: ['Yu-Chen Huang'],
         },
         {
-          job: '監製',
-          members: ['李雪莉'],
+          job: 'Developement',
+          members: ['Chung-Jen Yu'],
+        },
+        {
+          job: 'Producer',
+          members: ['Sherry Lee'],
         },
       ],
     },

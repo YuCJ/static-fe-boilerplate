@@ -1,26 +1,26 @@
 export const workEarly = [
   {
-    text: '我現在 17 歲了',
+    text: 'Now I\'m 17 years old.',
     start: 0,
     end: 2.6,
   },
   {
-    text: '我在做的工作，大月是在噴農藥',
+    text: 'I usually spray pesticides in 31-day months,',
     start: 2.7,
     end: 6.6,
   },
   {
-    text: '小月是在做一些搬菜、粗工那些',
+    text: '- and harvest vegetables or do other heavy labors in 30-day months.',
     start: 6.8,
     end: 11.7,
   },
   {
-    text: '我可能（前一天）7 點知道',
+    text: 'I may be informed at 7pm on the previous day.',
     start: 12,
     end: 16,
   },
   {
-    text: '有時候是 4 點半，有時候是 5 點要起來',
+    text: 'Sometimes I need to get up at 4am or 5am.',
     start: 16.2,
     end: 22,
   },
@@ -28,40 +28,50 @@ export const workEarly = [
 
 export const aboutSalary = [
   {
-    text: '助手（1 分地）35（元），師傅 70（元），車底錢 50（元）',
+    text: 'Each of the assistants earn thirty-five dollars for nine hundred and seventy square meters.',
     start: 0,
+    end: 3.2,
+  },
+  {
+    text: 'The masters get seventy dollars,',
+    start: 3.4,
+    end: 5,
+  },
+  {
+    text: '- and the pesticide company gains fifty dollars.',
+    start: 5.2,
     end: 8,
   },
 ]
 
 export const poisoned = [
   {
-    text: '風勢嘛，（風勢）它風吹這邊',
+    text: 'Winds blowed this way.',
     start: 0,
     end: 1.9,
   },
   {
-    text: '像這樣就是倒退嘛，那我們都不會吃到（農）藥',
+    text: 'It\'s backwards so that we wouldn\'t breathe pesticides.',
     start: 2.1,
     end: 6.6,
   },
   {
-    text: '可是他偏偏要轉正走，這樣全部的人都要吃到（農）藥，包括他自己',
+    text: 'Unfortunately, winds changed directions instantly and all the people, including the sprayer, breathed pesticides.',
     start: 6.8,
     end: 10.8,
   },
   {
-    text: '那天剛好又，該怎麼講，突然下雨啊',
+    text: 'In a second it rained,',
     start: 11,
     end: 15,
   },
   {
-    text: '下雨後又馬上出大太陽，結果就整個縮起來了（中毒）',
+    text: '- and shortly the sun was shining. We all got poisoned.',
     start: 15.3,
     end: 21.5,
   },
   {
-    text: '（我）就丟下繩子，邊丟邊吐',
+    text: 'I discarded the robe and couldn\'t stop vomiting along the way.',
     start: 21.9,
     end: 26,
   },
@@ -69,52 +79,52 @@ export const poisoned = [
 
 export const aboutFuture = [
   {
-    text: '（我）也不知道，就是變成已經不習慣那種生活了吧',
+    text: 'I don\'t know. Maybe I can\'t get accustomed to that kind of life any more.',
     start: 0,
     end: 4.1,
   },
   {
-    text: '就是那種團體生活',
+    text: 'I mean group living.',
     start: 4.7,
     end: 6.4,
   },
   {
-    text: '在那裡每天時間到就上課，坐在那裡乖乖地都不要動',
+    text: 'Every day, you go to class on time and sit still in class.',
     start: 6.5,
     end: 11,
   },
   {
-    text: '我現在應該做不到了',
+    text: 'But now I can\'t do that anymore.',
     start: 11.1,
     end: 13.5,
   },
   {
-    text: '所以就想說做工作，一項一項換',
+    text: 'I decide to go to work and try different jobs.',
     start: 13.8,
     end: 16.3,
   },
   {
-    text: '有做有錢，沒做沒錢',
+    text: 'No work, no pay.',
     start: 16.8,
     end: 19.6,
   },
   {
-    text: '不然如果不做的話誰要理我們',
+    text: 'If I don\'t have a job, who will care for me?',
     start: 19.9,
     end: 23.5,
   },
   {
-    text: '其實現在家裡也是什麼都沒有了',
+    text: 'Nobody is home.',
     start: 23.8,
     end: 27.1,
   },
   {
-    text: '沒有父母長輩，什麼都沒有了',
+    text: 'I have neither parents nor elders.',
     start: 27.4,
     end: 29.9,
   },
   {
-    text: '所以就只要做工作就好了，這樣普普通通過日子就好',
+    text: 'I think it\'s good enough to get a job and have an ordinary life.',
     start: 30.1,
     end: 39,
   },
