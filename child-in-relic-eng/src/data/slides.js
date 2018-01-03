@@ -82,7 +82,7 @@ const slides = [
     showNextPageButton: false,
     content: {
       subtitle: 'A Youth in Ruins',
-      title: 'At age of fifteen, I\'ve began to earn my own living',
+      title: 'At age of fifteen, I\'ve begun to earn my own living',
       date: '2017.11.01',
     },
     backgroundType: BG_TYPES.CINEMAGRAPH,
@@ -319,7 +319,7 @@ const slides = [
     contentType: CONTENT_TYPES.CAPTION,
     showNextPageButton: false,
     content: {
-      caption: 'Each of the assistants earn thirty-five dollars for nine hundred and seventy square meters. The masters get seventy dollars, and the pesticide company gains fifty dollars.',
+      caption: 'They get paid by cash. It\'s hard for them to make saving since they will spend all of their money as soon as they receive it.',
     },
     backgroundType: BG_TYPES.IMAGE,
     background: {
@@ -561,7 +561,7 @@ const slides = [
     showNextPageButton: false,
     content: {
       title: '',
-      htmlContent: '<p>Before the day the reportage was published, Tudou told us that he decided to quit the job of pesticide spray, and would find new ones with security and safety.</p>',
+      htmlContent: '<p>Before the day the reportage was published, Tudou told us that he decided to quit the job of pesticide spray, and would find new ones more secure and safe.</p>',
       textBoxPosition: TEXT_BOX_POSITIONS.CENTER_CENTER,
     },
     backgroundType: BG_TYPES.COLOR,

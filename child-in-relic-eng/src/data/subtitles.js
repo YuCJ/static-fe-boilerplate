@@ -28,7 +28,7 @@ export const workEarly = [
 
 export const aboutSalary = [
   {
-    text: 'Each of the assistants earn thirty-five dollars for nine hundred and seventy square meters.',
+    text: 'Each of the assistants earns thirty-five dollars for nine hundred and seventy square meters.',
     start: 0,
     end: 3.2,
   },
@@ -46,17 +46,17 @@ export const aboutSalary = [
 
 export const poisoned = [
   {
-    text: 'Winds blowed this way.',
+    text: 'The wind blows our way.',
     start: 0,
     end: 1.9,
   },
   {
-    text: 'It\'s backwards so that we wouldn\'t breathe pesticides.',
+    text: 'We should walk backwards to avoid pesticides.',
     start: 2.1,
     end: 6.6,
   },
   {
-    text: 'Unfortunately, winds changed directions instantly and all the people, including the sprayer, breathed pesticides.',
+    text: 'But the sprayer master walked towards the wind and all the people, including himself, breathed pesticides.',
     start: 6.8,
     end: 10.8,
   },
@@ -79,7 +79,7 @@ export const poisoned = [
 
 export const aboutFuture = [
   {
-    text: 'I don\'t know. Maybe I can\'t get accustomed to that kind of life any more.',
+    text: 'I don\'t know. Maybe I can\'t get used to that kind of life any more.',
     start: 0,
     end: 4.1,
   },
